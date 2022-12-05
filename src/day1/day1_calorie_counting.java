@@ -1,4 +1,4 @@
-package day1_calorie_counting;
+package day1;
 
 public class day1_calorie_counting {
 
@@ -18,10 +18,6 @@ public class day1_calorie_counting {
 
         return result;
     }
-
-
-
-
 
     public static void main(String[] args) {
         String test = "62797\n" +
