@@ -6,8 +6,8 @@ import java.io.FileReader;
 import java.util.LinkedList;
 
 public class day8_treetop_tree_house {
-    private static final String link = "/Users/andriilata/Desktop/Andrii/advent_of_code_2022/day8input.txt";
-    private static int[][] createGrid(String link) {
+    public static final String link = "/Users/andriilata/Desktop/Andrii/advent_of_code_2022/day8input.txt";
+    public static int[][] createGrid(String link) {
 
         LinkedList<int[]> linkedGrid = new LinkedList<>();
 
@@ -38,10 +38,7 @@ public class day8_treetop_tree_house {
 
     private static boolean checkVisibility(int[][] grid, int i, int j){
         int hightMain = grid[i][j];
-        int hightUp = grid[i-1][j];
-        int hightLeft = grid[i][j-1];
-        int hightRight = grid[i][j + 1];
-        int hightBottom = grid[i + 1][j];
+
         boolean top = false;
         boolean bottom = false;
         boolean left = false;
